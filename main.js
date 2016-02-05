@@ -21,16 +21,17 @@ console.log('Fun Cars: ' + cars);
 // 2. Add an additional item to the beginning of your Array.
 console.log("Question 2");
 
-var cars = [];
-cars.unshift('Honda');
-cars.push('BMW');
-cars.splice(0,0,['Tesla', 'VW']);
 cars.unshift('Acura');
 
 console.log('Fun Cars: ' + cars);
 < "Fun Cars: Acura,Tesla,VW,Honda,BMW"
 // 3. Remove the second and third items.
+console.log("Question 3");
 
+cars.splice(1,1);
+
+console.log('Fun Cars: ' + cars);
+< "Fun Cars: Acura,Honda,BMW"
 // 4. Add two new items after the second item.
 
 // 5. Write 'The current length of the array is....' using the .length method
