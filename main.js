@@ -60,6 +60,7 @@ console.log("Above Array into a String: " + things[0] + ", " + things[1] + ", " 
 < "Above Array into a String: mug, book, keyboard, plant, sunglasses."
 // 8. Declare a variable called lastItem whose using .pop() Add two new items to lastItem, on at the beginning and one at the end.
 console.log("Question 8");
+
 var lastItem = Array(things.pop());
 
 console.log(lastItem);
@@ -71,7 +72,12 @@ lastItem.unshift('cookie');
 console.log(lastItem)
 < ["cookie", "sunglasses", "latte"]
 // 9. Create a new Array called itemLast. The items should be the same as lastItem, only in reverse order.
+console.log("Question 9");
 
+var itemLast = lastItem.reverse();
+
+console.log(itemLast)
+< ["latte", "sunglasses", "cookie"]
 // 10. Remove the first item of itemLast.
 
 // 11. Remove all items from itemLast (No need to write to the document. Just console.log to test your results)
