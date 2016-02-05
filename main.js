@@ -33,9 +33,16 @@ cars.splice(1,1);
 console.log('Fun Cars: ' + cars);
 < "Fun Cars: Acura,Honda,BMW"
 // 4. Add two new items after the second item.
+console.log("Question 4");
 
+cars.splice(2,0,['Tesla', 'VW']);
+
+< "Fun Cars: Acura,Honda,Tesla,VW,BMW"
 // 5. Write 'The current length of the array is....' using the .length method
+console.log("Question 5");
 
+console.log(cars.length);
+< 4
 // Use the following Array for questions 6-11:
 var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
