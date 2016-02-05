@@ -47,9 +47,17 @@ console.log(cars.length + 1);
 var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
 // 6. Change 'mouse' to 'keyboard'
+console.log("Question 6");
 
+things[2] = 'keyboard';
+
+console.log(things)
+< ["mug", "book", "keyboard", "plant", "sunglasses"]
 // 7. Combine all of the elements of the array into a string.
+console.log("Question 7");
 
+console.log("Above Array into a String: " + things[0] + ", " + things[1] + ", " + things[2] + ", " + things[3] + ", " +  things[4] + "." )
+< "Above Array into a String: mug, book, keyboard, plant, sunglasses."
 // 8. Declare a variable called lastItem whose using .pop() Add two new items to lastItem, on at the beginning and one at the end.
 
 // 9. Create a new Array called itemLast. The items should be the same as lastItem, only in reverse order.
