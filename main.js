@@ -19,7 +19,16 @@ cars.splice(0,0,['Tesla', 'VW']);
 console.log('Fun Cars: ' + cars);
 < "Fun Cars: Tesla,VW,Honda,BMW"
 // 2. Add an additional item to the beginning of your Array.
+console.log("Question 2");
 
+var cars = [];
+cars.unshift('Honda');
+cars.push('BMW');
+cars.splice(0,0,['Tesla', 'VW']);
+cars.unshift('Acura');
+
+console.log('Fun Cars: ' + cars);
+< "Fun Cars: Acura,Tesla,VW,Honda,BMW"
 // 3. Remove the second and third items.
 
 // 4. Add two new items after the second item.
