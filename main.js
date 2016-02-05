@@ -6,7 +6,7 @@
 // If you would like, practice using document.write() as well. Use any elements you like!
 // ==========================================================================
 
-// Array Documentation: http://www.w3schools.com/jsref/default.asp
+// Array Documentation: http://www.w3schools.com/jsref/jsref_obj_array.asp
 
 // 1. Declare a variable whose value is an empty Array. Use any method you choose to add at least 4 items to it.
 
