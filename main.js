@@ -10,10 +10,15 @@
 
 // 1. Declare a variable whose value is an empty Array. Use any method you choose to add at least 4 items to it.
 
-//console.log("Question 1");
-//console.log(yourAnswer);
+console.log("Question 1");
 
+var cars = [];
+cars.unshift('Honda');
+cars.push('MBUSA');
+cars.splice(0,0,['Tesla', 'VW']);
 
+console.log('Fun Cars: ' + cars);
+< "Fun Cars: Tesla,VW,Honda,MBUSA"
 // 2. Add an additional item to the beginning of your Array.
 
 // 3. Remove the second and third items.
