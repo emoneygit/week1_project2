@@ -88,9 +88,12 @@ console.log(firstItem)
 // 11. Remove all items from itemLast (No need to write to the document. Just console.log to test your results)
 console.log("Question 11");
 
-lastItem.splice(0,2)
+console.log(itemLast)
+< ["sunglasses", "cookie"]
 
-console.log(lastItem)
+itemLast.splice(0,2)
+
+console.log(itemLast)
 < []
 // 12. Using the Arrays below, create a single Array called numberPets whose value is [12, 5, 9, 27, 'fish', 'dog']
 var firstArray = [12, 5, 9, 27];
