@@ -9,7 +9,6 @@
 // Array Documentation: http://www.w3schools.com/jsref/jsref_obj_array.asp
 
 // 1. Declare a variable whose value is an empty Array. Use any method you choose to add at least 4 items to it.
-
 console.log("Question 1");
 
 var cars = [];
