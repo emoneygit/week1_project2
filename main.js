@@ -41,8 +41,8 @@ cars.splice(2,0,['Tesla', 'VW']);
 // 5. Write 'The current length of the array is....' using the .length method
 console.log("Question 5");
 
-console.log(cars.length);
-< 4
+console.log(cars.length + 1);
+< 5
 // Use the following Array for questions 6-11:
 var things = ['mug', 'book', 'mouse', 'plant', 'sunglasses'];
 
