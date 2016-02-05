@@ -13,11 +13,11 @@ console.log("Question 1");
 
 var cars = [];
 cars.unshift('Honda');
-cars.push('MBUSA');
+cars.push('BMW');
 cars.splice(0,0,['Tesla', 'VW']);
 
 console.log('Fun Cars: ' + cars);
-< "Fun Cars: Tesla,VW,Honda,MBUSA"
+< "Fun Cars: Tesla,VW,Honda,BMW"
 // 2. Add an additional item to the beginning of your Array.
 
 // 3. Remove the second and third items.
