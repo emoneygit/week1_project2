@@ -163,7 +163,12 @@ console.log(array4);
 < [["Fido", "Spot", "Rex"], ["Bulldog", "Lab", "Dalmation", "Beagle"], ["Black", "Spotted", "Tri-color"]]
 // BONUS 1: Try to arrange the following items from smallest to largest:
 var sortingNumbers = [2, 5, 98, 55, 77, 300]
+
+console.log(sortingNumbers.sort())
+< [2, 300, 5, 55, 77, 98]
+
 // Explain why it doesn't sort as expected.
+Because '300' comes before '5' in Unicode code point order, You need a function to sort!
 
 // BONUS 2: Transform array1 into array2 using as few lines of code as you can without directly changing the value of an item (ie array1[0] = item)
 var array1 = [2, 'dog', 34, 'Bill', 'plant', 'mug', 17];
