@@ -138,6 +138,14 @@ var array1 = ["Fido", "Spot", "Rex", "Sparky"]
 var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"]
 var array3 = ["White", "Black", "Spotted", "Tri-color"]
 
+console.log("Question 17");
+
+var array4 = [];
+array4.unshift(array1, array2, array3);
+
+console.log(array4);
+< [Log] [["Fido", "Spot", "Rex"], ["Bulldog", "Lab", "Dalmation", "Beagle"], ["Black", "Spotted", "Tri-color"]]
+
 // Goal:
 var array4 = [
                 ["Fido", "Spot", "Rex", "Sparky"],
@@ -146,7 +154,13 @@ var array4 = [
               ]
 
 // 18. Remove "Sparky" and "White" from the above array of arrays.
+console.log("Question 18");
 
+array1.pop()
+array3.shift()
+
+console.log(array4);
+< [["Fido", "Spot", "Rex"], ["Bulldog", "Lab", "Dalmation", "Beagle"], ["Black", "Spotted", "Tri-color"]]
 // BONUS 1: Try to arrange the following items from smallest to largest:
 var sortingNumbers = [2, 5, 98, 55, 77, 300]
 // Explain why it doesn't sort as expected.
