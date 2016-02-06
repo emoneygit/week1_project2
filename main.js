@@ -173,5 +173,13 @@ Because '300' comes before '5' in Unicode code point order, You need a function 
 // BONUS 2: Transform array1 into array2 using as few lines of code as you can without directly changing the value of an item (ie array1[0] = item)
 var array1 = [2, 'dog', 34, 'Bill', 'plant', 'mug', 17];
 
+var array2 = array1;
+
+array2.splice(2, 1);
+array2.splice(4, 1);
+array2.sort().unshift(array2.pop());
+
+console.log(array2);
+< ["plant", 17, 2, "Bill", "dog"]
 //Goal
 var array2 = ['plant', 17, 2, 'Bill', 'dog'];
