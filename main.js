@@ -109,13 +109,30 @@ console.log(numberPets);
 var people = ['Bill', 'Ted', 'Emily', 'Andrea', 'Doug'];
 
 // 13. Add two new people after 'Doug'
+console.log("Question 13");
 
+people.push("Joe","Dirt")
+
+console.log(people)
+< ["Bill", "Ted", "Emily", "Andrea", "Doug", "Joe", "Dirt"]
 // 14. Remove everybody except 'Andrea' and 'Ted'
+console.log("Question 14");
 
+console.log("BFF: " + people[1] + " and " + people[3] + "!")
+< "BFF: Ted and Andrea!"
 // 15. Add a new person to the beginning of the Array
+console.log("Question 15");
 
+people.unshift("Chloe")
+console.log(people)
+< ["Chloe", "Bill", "Ted", "Emily", "Andrea", "Doug", "Joe", "Dirt"]
 // 16. Arrange the items alphabetically. Store this Array as orderedPeople
+console.log("Question 16");
 
+people.sort();
+
+console.log(people)
+< ["Andrea", "Bill", "Chloe", "Dirt", "Doug", "Emily", "Joe", "Ted"]
 // 17. Create an array of arrays with the following three arrays:
 var array1 = ["Fido", "Spot", "Rex", "Sparky"]
 var array2 = ["Bulldog", "Lab", "Dalmation", "Beagle"]
